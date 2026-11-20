@@ -1,0 +1,14 @@
+interface:
+  display_name: Parlay Finder
+  short_description: Find and price player-prop parlays across sports
+  default_prompt: Use $parlay-finder to find a player-prop parlay on the next available
+    slate and show what $10 could return.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
